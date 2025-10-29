@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bisao - Productos de Calidad</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">Bisao</div>
+        <nav class="nav">
+          <a href="#inicio">Inicio</a>
+          <a href="#productos">Productos</a>
+          <a href="#sobre-nosotros">Sobre Nosotros</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+        <div class="search-container">
+          <input type="text" id="searchInput" placeholder="Buscar productos..." class="search-input">
+          <i class="fas fa-search search-icon"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section with Video Background -->
+    <section class="hero" id="inicio">
+      <video autoplay muted loop playsinline class="hero-video">
+        <source src="https://assets.mixkit.co/videos/preview/mixkit-elegant-white-fabric-flowing-in-slow-motion-43873-large.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">Bienvenido a Bisao</h1>
+        <p class="hero-subtitle">Descubre nuestra colección de productos exclusivos</p>
+        <a href="#productos" class="hero-btn">Explorar Productos</a>
+      </div>
+    </section>
+
+    <!-- Carousel -->
+    <section class="carousel-section">
+      <div class="container">
+        <h2 class="section-title">Destacados</h2>
+        <div class="carousel">
+          <button class="carousel-btn prev" id="prevBtn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <div class="carousel-container">
+            <div class="carousel-track" id="carouselTrack">
+              <!-- Carousel items will be added by JS -->
+            </div>
+          </div>
+          <button class="carousel-btn next" id="nextBtn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+        <div class="carousel-indicators" id="carouselIndicators"></div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories-section">
+      <div class="container">
+        <h2 class="section-title">Categorías</h2>
+        <div class="categories" id="categories">
+          <button class="category-btn active" data-category="todos">Todos</button>
+          <button class="category-btn" data-category="Nutrición">Nutrición</button>
+          <button class="category-btn" data-category="Digestivo">Digestivo</button>
+          <button class="category-btn" data-category="moda">Moda</button>
+          <button class="category-btn" data-category="deportes">Deportes</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section" id="productos">
+      <div class="container">
+        <h2 class="section-title">Nuestros Productos</h2>
+        <div class="products-grid" id="productsGrid">
+          <!-- Products will be added by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Collage Section -->
+    <section class="collage-section">
+      <div class="container">
+        <h2 class="section-title">Galería</h2>
+        <div class="collage" id="collage">
+          <!-- Collage images will be added by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Bisao</h3>
+            <p>Productos de calidad para tu estilo de vida</p>
+          </div>
+          <div class="footer-section">
+            <h4>Enlaces</h4>
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#sobre-nosotros">Sobre Nosotros</a>
+          </div>
+          <div class="footer-section">
+            <h4>Contacto</h4>
+            <p><i class="fas fa-envelope"></i> info@bisao.com</p>
+            <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+          </div>
+          <div class="footer-section">
+            <h4>Síguenos</h4>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Bisao. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div class="modal" id="productModal">
+      <div class="modal-overlay" id="modalOverlay"></div>
+      <div class="modal-content">
+        <button class="modal-close" id="modalClose">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="modal-body">
+          <div class="modal-image">
+            <img src="" alt="" id="modalImage">
+          </div>
+          <div class="modal-info">
+            <h2 id="modalTitle"></h2>
+            <div class="modal-rating" id="modalRating"></div>
+            <p class="modal-price" id="modalPrice"></p>
+            <p class="modal-description" id="modalDescription"></p>
+
+            <div class="features-section">
+              <h3>Características</h3>
+              <div class="features-grid" id="modalFeatures"></div>
+            </div>
+
+            <button class="whatsapp-btn" id="whatsappBtn">
+              <i class="fab fa-whatsapp"></i>
+              Consultar por WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Animated Background -->
+    <div class="animated-background">
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
