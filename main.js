@@ -6,7 +6,7 @@ const products = [
     name: "Agua Blu",
     category: "Nutrición",
     price: "",
-    image: "public/img/1.jpeg",
+    image: "img/1.jpeg",
     rating: 5,
     description: "El agua es un elemento vital para el organismo. Todas las células y órganos dependen de ella para su correcto funcionamiento.",
     features: [
@@ -23,7 +23,7 @@ const products = [
     name: "Aloe Beta",
     category: "Digestivo",
     price: "",
-    image: "public/img/2.jpeg",
+    image: "img/2.jpeg",
     rating: 3,
     description: "Bebida sabor piña, contiene gel de sábila (aloe vera) y vitaminas E. Disfrutalo frio o a temperatura ambiente 2 a 3 veces al día.",
     features: [
@@ -39,7 +39,7 @@ const products = [
     name: "Cafezzino Plus",
     category: "Nutrición",
     price: "",
-    image: "public/img/3.jpeg",
+    image: "img/3.jpeg",
     rating: 5,
     description: "Producto nutricional con café colombiano, extracto de café verde, cromo y fibra. Ayuda a utilizar la grasa almacenada como fuente de energía.",
     features: [
@@ -55,7 +55,7 @@ const products = [
     name: "Flu-Y",
     category: "Nutrición",
     price: "",
-    image: "public/img/4.jpeg",
+    image: "img/4.jpeg",
     rating: 4,
     description: "Suplemento alimenticio, que contiene extracto de naranja dulce y magnesio. Ayuda a fortalecer las defensas naturales del organismo.",
     features: [
@@ -70,7 +70,7 @@ const products = [
     name: "Ego Plant",
     category: "Digestivo",
     price: "",
-    image: "public/img/5.jpeg",
+    image: "img/5.jpeg",
     rating: 5,
     description: "Suplemento alimenticio, sabor herbal, que contiene vitaminas B12, D y E. Con extracto de fruto del monje y estevia, endulzantes de origen natural.",
     features: [
@@ -86,7 +86,7 @@ const products = [
     name: "Fiber´N Plus",
     category: "Digestivo",
     price: "",
-    image: "public/img/7.jpeg",
+    image: "img/7.jpeg",
     rating: 5,
     description: "¿Quieres complementar tu aporte de fibra dutante el día? Transita hacia tu bienestar con Fiber N´Plus y disfruta de una mezcla única de fibras, probióticos y prebióticos.",
     features: [
@@ -103,7 +103,7 @@ const products = [
     name: "OMNILIFE IQU",
     category: "Nutrición",
     price: "",
-    image: "public/img/8.jpeg",
+    image: "img/8.jpeg",
     rating: 5,
     description: "Suplemento alimenticio, sabores de origen natural a jengibre y mandarina, que contiene pirroloquinolina quinona (PQQ), coenzima Q10, vitamina D3 y extracto de café verde. ",
     features: [
@@ -118,7 +118,7 @@ const products = [
     name: "Ego",
     category: "Digestivo",
     price: "",
-    image: "public/img/9.jpeg",
+    image: "img/9.jpeg",
     rating: 5,
     description: "Sabor frutas del bosque. Contiene extracto de regaliz, colina, glicina, vitaminas del complejo B, tiamina B1, niacina B3, piridoxina B6, B12 y Vitamina C.",
     features: [
@@ -133,7 +133,7 @@ const products = [
     name: "Estop Plus",
     category: "Nutrición",
     price: "",
-    image: "public/img/10.jpeg",
+    image: "img/10.jpeg",
     rating: 5,
     description: "Producto nutricional sabor nuez vainilla, con almendra, fitoesteroles, extracto de cera de caña y vitamina E, que colaboran al cuidado del corazón.",
     features: [
@@ -148,7 +148,7 @@ const products = [
     name: "OMNILIFE Kolina",
     category: "Digestivo",
     price: "",
-    image: "public/img/11.jpeg",
+    image: "img/11.jpeg",
     rating: 4,
     description: "Suplemento alimenticio sabor toronja que contiene extracto de coco y piña, además de vitamina C, con extracto de fruto del monje y estevia, endulzantes de origen natural.",
     features: [
@@ -163,7 +163,7 @@ const products = [
     name: "Kenyanz",
     category: "Nutrición",
     price: "",
-    image: "public/img/12.jpeg",
+    image: "img/12.jpeg",
     rating: 5,
     description: "Contiene Colina, glicina, vitaminas del complejo B: Tiamina B1, riboflavina B2, niacina B3, ácido pantoténico B5, piridoxina B6, biotina y B12, vitaminas C y E, además de minerales. Con extracto de fruto del monje y estevia endulzantes de origen natural que no aportan calorías.",
     features: [
@@ -178,7 +178,7 @@ const products = [
     name: "Power Maker",
     category: "deportes",
     price: "",
-    image: "public/img/13.jpeg",
+    image: "img/13.jpeg",
     rating: 4,
     description: "Suplemento alimenticio sabor a naranja.",
     features: [
