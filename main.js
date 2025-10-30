@@ -193,30 +193,30 @@ const products = [
 
 const carouselData = [
   {
-    image: "public/img/14.jpeg",
+    image: "img/14.jpeg",
     title: "Nueva Colección",
     subtitle: "Tecnología de última generación"
   },
   {
-    image: "public/img/15.jpg",
+    image: "img/15.jpg",
     title: "Estilo y Confort",
     subtitle: "Para tu hogar ideal"
   },
   {
-    image: "public/img/16.jpg",
+    image: "img/16.jpg",
     title: "Actívate",
     subtitle: "Productos deportivos premium"
   }
 ];
 
 const collageImages = [
-  "public/img/17.jpg",
-  "public/img/18.jpg",
-  "public/img/19.jpg",
-  "public/img/20.jpg",
-  "public/img/21.jpg",
-  "public/img/22.jpg",
-  "public/img/23.jpeg"
+  "img/17.jpg",
+  "img/18.jpg",
+  "img/19.jpg",
+  "img/20.jpg",
+  "img/21.jpg",
+  "img/22.jpg",
+  "img/23.jpeg",
 ];
 
 let currentSlide = 0;
